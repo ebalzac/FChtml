@@ -936,7 +936,7 @@ h1.collection{
     text-transform: uppercase;
 }
 .dateline{
-    margin: 2em 0;
+    margin: 1rem 0;
     text-indent: 4em;
 }
 section.div{
@@ -1136,7 +1136,7 @@ label.label{
 }
 p.label,
 div.label{
-    margin: 1.4em 0 0.7em 0;
+    margin: 1rem 0 0.7rem 0;
     line-height: 105%;
     text-align: center;
     text-indent: 0;
@@ -2567,4 +2567,12 @@ details.minus > *{
         padding-bottom: 0;
         line-height: 110%;
     }
+}
+div .letter {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    border-top: solid 1pt #CCCCCC;
+    border-bottom: solid 1pt #CCCCCC;
 }
