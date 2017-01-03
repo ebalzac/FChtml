@@ -611,6 +611,12 @@ section{
 {
     font-style: italic;
 }
+.dedication .label {
+    font-style: normal;
+}
+.dedication .salute {
+    font-style: normal;
+}
 select{
     padding: 0 0.5ex;
 }
@@ -2571,8 +2577,12 @@ details.minus > *{
 div .letter {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding-top: 0;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     border-top: solid 1pt #CCCCCC;
     border-bottom: solid 1pt #CCCCCC;
+}
+.ab {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
 }
