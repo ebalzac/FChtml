@@ -1,0 +1,76 @@
+/* css partie génétique, à réintégrer dans la css front */
+.page-genetique .comparaison-html{text-align: justify; position: relative; padding-left: 5em}
+.page-genetique .comparaison-html a{color: #44ac20}
+.page-genetique .comparaison-html a:hover{color: #636b6f}
+.page-genetique .comparaison-html a.noteref{padding: 0 2px}
+.page-genetique .comparaison-html a.pb{position: absolute; left: 0; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4}
+.page-genetique .comparaison-html a.pb:hover{	background: #44ac20; color: #FFF}
+.page-genetique .comparaison-html h1.head{font-size: 3em; font-weight: lighter; text-align: center}
+.page-genetique .comparaison-html h1.head .bookmark{display: none}
+.page-genetique .comparaison-html .titlePart{font-size: 1.5em; text-align: center; font-weight: lighter}
+.page-genetique .comparaison-html .titlePart.main{font-size: 2.5em}
+.page-genetique .comparaison-html .titlePart .bookmark{display: none}
+.page-genetique .comparaison-html .salute{text-align: center}
+.page-genetique .comparaison-html figure{text-align: center}
+.page-genetique .comparaison-html figure img{max-width: 100%; height: auto}
+ /* css partie édition roman-html */
+/* partie CSS non transformée par Maxime */
+.page-edition .roman-html {text-align: justify; position: relative; padding-left: 5em; font-size:18px;} /* mettre à jour mais pas sur la version mobile */
+.page-edition .roman-html a {color: #44ac20}
+.page-edition .roman-html a:hover {color: #636b6f}
+.page-edition .roman-html a.noteref {padding: 0 2px}
+.page-edition .roman-html a.pb {position: absolute; left: 0; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; font-size:12px;} /* mettre à jour */
+.page-edition .roman-html a.pb:hover {background: #44ac20; color: #FFF}
+.page-edition .roman-html figure {text-align: center}
+.page-edition .roman-html figure img {max-width: 100%; height: auto}
+/* partie CSS édition développée par Maxime et fonctionnelle */
+	/* tags principaux */
+.page-edition .roman-html p {text-indent:1em; margin:0;}
+.page-edition .roman-html i {font-style:italic;}
+.page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
+.page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage */
+.page-edition .roman-html .num {font-variant:small-caps;}
+.page-edition .roman-html .n {font-style:normal;}
+.page-edition .roman-html h2.head, .page-edition .roman-html h3.head {text-align:center; margin:1em 0 1em 0; line-height:1.2em;} /* mettre à jour */
+	/* classes usuelles */
+.page-edition .roman-html .center {text-align:center; text-indent:0;} /* mettre à jour */
+.page-edition .roman-html .quote.center {text-align:center; text-indent:0;} /* mettre à jour */
+.page-edition .roman-html .noindent {text-indent:0;}
+.page-edition .roman-html .noindent.i {font-style:italic;}
+.page-edition .roman-html .label {text-align:center; font-size:1.3em; margin: 1em 0 1em 0;}
+.page-edition .roman-html .bookmark {display:none}
+	/* blocs particuliers */
+.page-edition .roman-html p.docAuthor {text-align:center; text-indent:0; font-size:1.5em;}
+.page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;} /* mettre à jour */
+.page-edition .roman-html .titlePart.sub {text-align:center; text-indent:0; font-size:1.5em; font-weight:lighter; margin: 0.5em 0 0.5em 0;} /* mettre à jour */
+.page-edition .roman-html blockquote.quote {margin: 1em 0 1em 3em;}
+.page-edition .roman-html blockquote.epigraph {text-align:right; margin: 1em 0 1em 10em;}
+.page-edition .roman-html .ab {text-align:center; letter-spacing:-2px; margin:1em 0 1em 0;}
+.page-edition .roman-html .lg {margin:0 0 1em 0;}
+.page-edition .roman-html .l.i {font-style:italic;}
+.page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
+.page-edition .roman-html .dateline {text-align:right; margin: 0 2em 0.5em 0;}
+.page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;} /* mettre à jour */
+
+/* ne fonctionne pas encore : tout ce qui suit ne doit pas être intégré à la CSS front */
+.page-edition .roman-html .noindent.i.i {font-style:normal;} /* ne fonctionne pas : il faudrait que le texte en italic dans un p italic soit en normal */
+.page-edition .roman-html .noindent.i.sc {font-style:normal; font-variant:small-caps;} /* idem que ci-dessus, mais que le texte soit en normal et small-caps */
+/* VÉRIFIER SI ÇA FONCTIONNE DANS UN ROMAN QUI UTILISE SALUTE DANS OPENER ET DANS CLOSER */
+	/* salute dans opener (div.letter ou div.salute) */
+.page-edition .roman-html div.opener>div.salute {text-indent:1em;}
+	/* salute dans closer (div.letter ou div.salute) */
+.page-edition .roman-html div.closer>div.salute {text-indent:3em;}
+/* dedication */ /* TESTÉ SUR RECHERCHE DE L'ABSOLU ET NE FONCTIONNE PAS */
+.page-edition #front-1.div.dedication.level2 {margin: 1em 0 1em 0;}
+.page-edition #front-1.div.dedication.level2.div.salute {font-size: 1.3em; text-align:center; margin: 0 0 1em 0;}
+.page-edition #front-1.div.dedication.level2.p {font-style:italic;}
+/* anciens styles Propago réintégrés ailleurs
+.roman-html .titlePart {font-size: 1.5em; text-align: center; font-weight: lighter;}
+.roman-html .titlePart.main {font-size: 2.5em;}
+.roman-html .titlePart .bookmark {display: none}
+.roman-html .salute {text-align: center;} */
+/* style inutiles
+ *.page-edition .roman-html blockquote.quote.l {margin: 1em 0 1em 3em;}
+ * .page-edition .roman-html div.l.first.i {font-style:italic;}
+ * 
+ */
