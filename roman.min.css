@@ -20,7 +20,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html a {color: #44ac20}
 .page-edition .roman-html a:hover {color: #636b6f}
 .page-edition .roman-html a.noteref {padding: 0 2px}
-.page-edition .roman-html a.pb {position: absolute; left: 0; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; } /* font-size:12px; : ajouter si augmentation de la taille du texte */
+.page-edition .roman-html a.pb {position: absolute; left: 0; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; } /* font-size:12px; : ajouter si augmentation de la taille du texte mais crée un manque d'uniformité à l'affichage (tous les blocs n'ont pas la même apparence) */
 .page-edition .roman-html a.pb:hover {background: #44ac20; color: #FFF}
 .page-edition .roman-html figure {text-align: center}
 .page-edition .roman-html figure img {max-width: 100%; height: auto}
@@ -29,7 +29,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html p {text-indent:1em; margin:0;}
 .page-edition .roman-html i {font-style:italic;}
 .page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
-.page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage */
+.page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage ; il faudrait reporter sur les pages statiques */
 .page-edition .roman-html .num {font-variant:small-caps;}
 .page-edition .roman-html .n {font-style:normal;}
 .page-edition .roman-html h2.head, .page-edition .roman-html h3.head {text-align:center; margin:1em 0 1em 0; line-height:1.2em;} /* mettre à jour */
