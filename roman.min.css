@@ -52,16 +52,19 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
 .page-edition .roman-html .dateline {text-align:right; margin: 0 2em 0.5em 0;}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;} /* mettre à jour */
+
 .page-edition .roman-html .salute {padding: 1em 0 1em 0;}
+.page-edition .roman-html .closer>.salute {text-indent:3em;}
+
 
 /* ne fonctionne pas encore : tout ce qui suit ne doit pas être intégré à la CSS front
 .page-edition .roman-html .noindent.i.i {font-style:normal;} !! ne fonctionne pas : il faudrait que le texte en italic dans un p italic soit en normal
 .page-edition .roman-html .noindent.i.sc {font-style:normal; font-variant:small-caps;} !! idem que ci-dessus, mais que le texte soit en normal et small-caps
 VÉRIFIER SI ÇA FONCTIONNE DANS UN ROMAN QUI UTILISE SALUTE DANS OPENER ET DANS CLOSER
 	 salute dans opener (div.letter ou div.salute)
-.page-edition .roman-html div.opener>div.salute {text-indent:1em;}
+.page-edition .roman-html .opener>.salute {text-indent:1em;}
 	 salute dans closer (div.letter ou div.salute)
-.page-edition .roman-html div.closer>div.salute {text-indent:3em;}
+.page-edition .roman-html .closer>.salute {text-indent:3em;}
 /* dedication */ /* TESTÉ SUR RECHERCHE DE L'ABSOLU ET NE FONCTIONNE PAS
 .page-edition #front-1.div.dedication.level2 {margin: 1em 0 1em 0;}
 .page-edition #front-1.div.dedication.level2.div.salute {font-size: 1.3em; text-align:center; margin: 0 0 1em 0;}
