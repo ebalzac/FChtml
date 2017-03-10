@@ -53,9 +53,8 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .dateline {text-align:right; margin: 0 2em 0.5em 0;}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 
-.level2 {margin: 1em 0 1em 0;}
-.level2>div.salute {text-align:center; margin: 0 0 1em 0;}
-.level2>div.salute>p.noindent {font-style:italic;}
+.page-edition .roman-html .level2 {margin: 1em 0 1em 0;}
+.page-edition .roman-html .level2>div.salute {text-align:center; font-size:1.2em; margin: 0 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
 
@@ -69,8 +68,6 @@ VÉRIFIER SI ÇA FONCTIONNE DANS UN ROMAN QUI UTILISE SALUTE DANS OPENER ET DANS
 	 salute dans closer (div.letter ou div.salute)
 .page-edition .roman-html .closer>.salute {text-indent:3em;}
 /* dedication */ /* TESTÉ SUR RECHERCHE DE L'ABSOLU ET NE FONCTIONNE PAS
-.page-edition #front-1.div.dedication.level2 {margin: 1em 0 1em 0;}
-.page-edition #front-1.div.dedication.level2.div.salute {font-size: 1.3em; text-align:center; margin: 0 0 1em 0;}
 .page-edition #front-1.div.dedication.level2.p {font-style:italic;}
 /* anciens styles Propago réintégrés ailleurs
 .roman-html .titlePart {font-size: 1.5em; text-align: center; font-weight: lighter;}
