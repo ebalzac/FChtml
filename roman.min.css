@@ -50,8 +50,10 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html p.docAuthor {text-align:center; text-indent:0; font-size:1.5em;}
 .page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;}
 .page-edition .roman-html .titlePart.sub {text-align:center; text-indent:0; font-size:1.5em; font-weight:lighter; margin: 0.5em 0 0.5em 0;}
-.page-edition .roman-html blockquote.quote {margin: 1em 0 1em 3em;}
-.page-edition .roman-html blockquote.epigraph {text-align:right; margin: 1em 0 1em 10em;}
+		/* autres */
+.page-edition .roman-html .quote {margin: 1em 0 1em 3em;}
+.page-edition .roman-html .epigraph {text-align:right; margin: 1em 0 1em 10em;}
+.page-edition .roman-html .epigraph>.bibl {margin-top:0.5em;}
 .page-edition .roman-html .ab {text-align:center; letter-spacing:-2px; margin:1em 0 2em 0;}
 .page-edition .roman-html .lg {margin:0 0 1em 0;}
 .page-edition .roman-html .l.i {font-style:italic;}
