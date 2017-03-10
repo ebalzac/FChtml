@@ -26,7 +26,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html figure img {max-width: 100%; height: auto}
 /* partie CSS édition développée par Maxime et fonctionnelle */
 	/* tags principaux */
-.page-edition .roman-html p {text-indent:1em;}
+.page-edition .roman-html p {text-indent:1em; margin:0;}
 .page-edition .roman-html .i {font-style:italic;}
 .page-edition .roman-html .i.i {font-style:normal;}
 .page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
