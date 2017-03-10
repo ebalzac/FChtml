@@ -42,9 +42,14 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .label {text-align:center; font-size:1.3em; margin: 1em 0 1em 0;}
 .page-edition .roman-html .bookmark {display:none}
 	/* blocs particuliers */
+		/* dedication */
+.page-edition .roman-html .level2 {margin: 1em 0 1em 0;}
+.page-edition .roman-html .level2>.salute {text-align:center; font-size:1.2em; margin: 0 0 1em 0;}
+.page-edition .roman-html .dedication>p {font-style:italic;}
+		/* titlepage */
 .page-edition .roman-html p.docAuthor {text-align:center; text-indent:0; font-size:1.5em;}
-.page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;} /* mettre à jour */
-.page-edition .roman-html .titlePart.sub {text-align:center; text-indent:0; font-size:1.5em; font-weight:lighter; margin: 0.5em 0 0.5em 0;} /* mettre à jour */
+.page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;}
+.page-edition .roman-html .titlePart.sub {text-align:center; text-indent:0; font-size:1.5em; font-weight:lighter; margin: 0.5em 0 0.5em 0;}
 .page-edition .roman-html blockquote.quote {margin: 1em 0 1em 3em;}
 .page-edition .roman-html blockquote.epigraph {text-align:right; margin: 1em 0 1em 10em;}
 .page-edition .roman-html .ab {text-align:center; letter-spacing:-2px; margin:1em 0 2em 0;}
@@ -55,8 +60,3 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
-		/* dedication */
-.page-edition .roman-html .level2 {margin: 1em 0 1em 0;}
-.page-edition .roman-html .level2>.salute {text-align:center; font-size:1.2em; margin: 0 0 1em 0;}
-.page-edition .roman-html .dedication>p {font-style:italic;}
-.page-edition .roman-html .dedication>p:last-child {margin-bottom: 5em;}
