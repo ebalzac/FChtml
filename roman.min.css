@@ -54,7 +54,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 
 .page-edition .roman-html .level2 {margin: 1em 0 1em 0;}
-.page-edition .roman-html .level2>div.salute {text-align:center; font-size:3em; margin: 0 0 1em 0;}
+.page-edition .roman-html .level2>div.salute {text-align:center; font-size:1.3em; margin: 0 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
 
