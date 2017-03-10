@@ -58,6 +58,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
 .page-edition .roman-html .dedication>p {font-style:italic;}
+.page-edition .roman-html .dedication>p:last-child {margin-bottom: 1em;}
 
 /* ne fonctionne pas encore : tout ce qui suit ne doit pas être intégré à la CSS front
 .page-edition .roman-html .noindent.i.i {font-style:normal;} !! ne fonctionne pas : il faudrait que le texte en italic dans un p italic soit en normal
