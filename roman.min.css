@@ -1,4 +1,6 @@
-/* css partie génétique, à réintégrer dans la css front */
+sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;}
+
+ /* css partie génétique, à réintégrer dans la css front */
 .page-genetique .comparaison-html{text-align: justify; position: relative; padding-left: 5em}
 .page-genetique .comparaison-html a{color: #44ac20}
 .page-genetique .comparaison-html a:hover{color: #636b6f}
