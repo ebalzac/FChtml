@@ -16,11 +16,11 @@
  /* css partie édition roman-html */
 /* partie CSS non transformée par Maxime */
 section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
-.page-edition .roman-html {text-align: justify; position: relative; padding-left: 5em; margin-right: 2em;} /* font-size:17px; mettre à jour mais pas sur la version mobile */
+.page-edition .roman-html {text-align: justify; position: relative; padding-left: 5em; margin-right: 2em; font-size:17px;} /*  mettre à jour mais pas sur la version mobile */
 .page-edition .roman-html a {color: #44ac20}
 .page-edition .roman-html a:hover {color: #636b6f}
 .page-edition .roman-html a.noteref {padding: 0 2px}
-.page-edition .roman-html a.pb {position: absolute; left: 0; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; font-size:12px; font-style: normal; text-indent:0;} /*  : ajouter si augmentation de la taille du texte mais crée un manque d'uniformité à l'affichage (tous les blocs n'ont pas la même apparence).Déjà le cas pour MCP : est-ce que l'affichage de pb hérite des propriétés du lieu où il est intégré (p ou salute ou rien par exemple) */
+.page-edition .roman-html a.pb {position: absolute; left: 0; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; font-size:12px; font-style: normal; text-indent:0;}
 .page-edition .roman-html a.pb:hover {background: #44ac20; color: #FFF}
 .page-edition .roman-html figure {text-align: center}
 .page-edition .roman-html figure img {max-width: 100%; height: auto}
@@ -28,16 +28,17 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 	/* tags principaux */
 .page-edition .roman-html p {text-indent:1em;}
 .page-edition .roman-html .i {font-style:italic;}
+.page-edition .roman-html .i.i {font-style:normal;}
 .page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
 .page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage ; il faudrait reporter sur les pages statiques */
 .page-edition .roman-html .num {font-variant:small-caps;}
 .page-edition .roman-html .n {font-style:normal;}
 .page-edition .roman-html h2.head, .page-edition .roman-html h3.head {text-align:center; margin:1em 0 1em 0; line-height:1.2em;}
 	/* classes usuelles */
-.page-edition .roman-html .center {text-align:center; text-indent:0;} /* mettre à jour */
-.page-edition .roman-html .quote.center {text-align:center; text-indent:0;} /* mettre à jour */
+.page-edition .roman-html .center {text-align:center; text-indent:0;}
+.page-edition .roman-html .quote.center {text-align:center; text-indent:0;}
 .page-edition .roman-html .noindent {text-indent:0;}
-.page-edition .roman-html .noindent.i {font-style:italic;}
+.page-edition .roman-html .noindent.i {font-style:italic;} /* est-il utile celui-là ? */
 .page-edition .roman-html .label {text-align:center; font-size:1.3em; margin: 1em 0 1em 0;}
 .page-edition .roman-html .bookmark {display:none}
 	/* blocs particuliers */
@@ -52,33 +53,10 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
 .page-edition .roman-html .dateline {text-align:right; margin: 0 2em 0.5em 0;}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
-
-.page-edition .roman-html .level2 {margin: 1em 0 1em 0;}
-.page-edition .roman-html .level2>div.salute {text-align:center; font-size:1.3em; margin: 0 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
+		/* dedication */
+.page-edition .roman-html .level2 {margin: 1em 0 1em 0;}
+.page-edition .roman-html .level2>.salute {text-align:center; font-size:1.3em; margin: 0 0 1em 0;} /* si ne marche plus : remplacer .salute par div.salute */
 .page-edition .roman-html .dedication>p {font-style:italic;}
 .page-edition .roman-html .dedication>p:last-child {margin-bottom: 5em;}
-
-.page-edition .roman-html .i.i {font-style:normal;}
-
-/* ne fonctionne pas encore : tout ce qui suit ne doit pas être intégré à la CSS front
-.page-edition .roman-html .noindent.i.i {font-style:normal;} !! ne fonctionne pas : il faudrait que le texte en italic dans un p italic soit en normal
-.page-edition .roman-html .noindent.i.sc {font-style:normal; font-variant:small-caps;} !! idem que ci-dessus, mais que le texte soit en normal et small-caps
-VÉRIFIER SI ÇA FONCTIONNE DANS UN ROMAN QUI UTILISE SALUTE DANS OPENER ET DANS CLOSER
-	 salute dans opener (div.letter ou div.salute)
-.page-edition .roman-html .opener>.salute {text-indent:1em;}
-	 salute dans closer (div.letter ou div.salute)
-.page-edition .roman-html .closer>.salute {text-indent:3em;}
-/* dedication */ /* TESTÉ SUR RECHERCHE DE L'ABSOLU ET NE FONCTIONNE PAS
-.page-edition #front-1.div.dedication.level2.p {font-style:italic;}
-/* anciens styles Propago réintégrés ailleurs
-.roman-html .titlePart {font-size: 1.5em; text-align: center; font-weight: lighter;}
-.roman-html .titlePart.main {font-size: 2.5em;}
-.roman-html .titlePart .bookmark {display: none}
-.roman-html .salute {text-align: center;} */
-/* style inutiles
- *.page-edition .roman-html blockquote.quote.l {margin: 1em 0 1em 3em;}
- * .page-edition .roman-html div.l.first.i {font-style:italic;}
- * 
- */
