@@ -27,7 +27,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 /* partie CSS édition développée par Maxime et fonctionnelle */
 	/* tags principaux */
 .page-edition .roman-html p {text-indent:1em;}
-.page-edition .roman-html i {font-style:italic;}
+.page-edition .roman-html .i {font-style:italic;}
 .page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
 .page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage ; il faudrait reporter sur les pages statiques */
 .page-edition .roman-html .num {font-variant:small-caps;}
@@ -58,7 +58,9 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
 .page-edition .roman-html .dedication>p {font-style:italic;}
-.page-edition .roman-html .dedication>p:last-child {margin-bottom: 1em;}
+.page-edition .roman-html .dedication>p:last-child {margin-bottom: 5em;}
+
+.page-edition .roman-html .i.i {font-style:normal;}
 
 /* ne fonctionne pas encore : tout ce qui suit ne doit pas être intégré à la CSS front
 .page-edition .roman-html .noindent.i.i {font-style:normal;} !! ne fonctionne pas : il faudrait que le texte en italic dans un p italic soit en normal
