@@ -16,7 +16,7 @@
  /* css partie édition roman-html */
 /* partie CSS non transformée par Maxime */
 section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
-.page-edition .roman-html {text-align: justify; position: relative; padding-left: 5em; margin-right: 2em; font-size:17px;} /*  mettre à jour mais pas sur la version mobile */
+.page-edition .roman-html {text-align: justify; position: relative; margin-right: 2em; font-size:17px;} /* padding-left: 5em;*/
 .page-edition .roman-html a {color: #44ac20}
 .page-edition .roman-html a:hover {color: #636b6f}
 .page-edition .roman-html a.noteref {padding: 0 2px}
@@ -62,4 +62,4 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:3em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
-.page-edition .roman-html .level2>.closer>.dateline {margin: 2em 0 0 0;}
+.page-edition .roman-html .level2>.closer>.dateline {margin: 2em 0 0 0;} /* ajuster : voir MJM. Il faut que ce réglage ne concerne que les fins de romans, pas les fins de dédicace. */
