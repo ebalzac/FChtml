@@ -20,7 +20,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html a {color: #44ac20}
 .page-edition .roman-html a:hover {color: #636b6f}
 .page-edition .roman-html a.noteref {padding: 0 2px}
-.page-edition .roman-html a.pb {position: absolute; left: -100px; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; font-size:12px; font-style: normal; text-indent:0;}
+.page-edition .roman-html a.pb {position: absolute; left: -3em; padding: 2px 5px; color: #2A2B2F; background: #ddf7d4; font-size:12px; font-style: normal; text-indent:0;}
 .page-edition .roman-html a.pb:hover {background: #44ac20; color: #FFF}
 .page-edition .roman-html figure {text-align: center}
 .page-edition .roman-html figure img {max-width: 100%; height: auto}
