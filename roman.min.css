@@ -59,8 +59,8 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .lg {margin:0 0 1em 0;}
 .page-edition .roman-html .l.i {font-style:italic;}
 .page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
-.page-edition .roman-html .dateline {text-align:right; margin: 0 2em 0.5em 0;}
+.page-edition .roman-html .dateline {text-align:right; margin: 0.5em 2em 0.5em 0;}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:5em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
-.page-edition .roman-html .p~.closer>.dateline {margin: 2em 0 0 0;} /* ajuster : voir MJM. Il faut que ce réglage ne concerne que les fins de romans, pas les fins de dédicace. */
+.page-edition .roman-html .closer>.dateline {margin: 2em 0 0 0;} /* ajuster : voir MJM. Il faut que ce réglage ne concerne que les fins de romans, pas les fins de dédicace. */
