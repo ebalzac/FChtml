@@ -27,7 +27,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 /* partie CSS édition développée par Maxime et fonctionnelle */
 	/* tags principaux */
 .page-edition .roman-html p {text-indent:1em; margin:0;}
-.page-edition .roman-html .i {font-style:italic;}
+.page-edition .roman-html .i, .p.i {font-style:italic;}
 .page-edition .roman-html .i.i {font-style:normal;}
 .page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
 .page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage ; il faudrait reporter sur les pages statiques */
