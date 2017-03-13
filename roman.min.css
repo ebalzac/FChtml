@@ -44,7 +44,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 	/* blocs particuliers */
 		/* dedication */
 .page-edition .roman-html .dedication {margin: 1em 0 1em 0;}
-.page-edition .roman-html .dedication>.salute, .dedication>p.label {text-align:center; font-style:normal; font-size:1.2em; margin: 0 0 1em 0;}
+.page-edition .roman-html .dedication>.salute, .dedication>.label {text-align:center; font-style:normal; font-size:1.2em; margin: 0 0 1em 0;}
 .page-edition .roman-html .dedication>.p {font-style:italic;}
 .page-edition .roman-html .dedication>.closer>.salute {font-style:italic;}
 		/* titlepage */
@@ -63,4 +63,4 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:5em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
-.page-edition .roman-html .body>.closer>.dateline {margin: 2em 0 0 0;} /* ajuster : voir MJM. Il faut que ce réglage ne concerne que les fins de romans, pas les fins de dédicace. */
+.page-edition .roman-html .p~.closer>.dateline {margin: 2em 0 0 0;} /* ajuster : voir MJM. Il faut que ce réglage ne concerne que les fins de romans, pas les fins de dédicace. */
