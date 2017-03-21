@@ -47,6 +47,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .dedication>.salute, .dedication>.label {text-align:center; font-style:normal; font-size:1.2em; margin: 0 0 1em 0;}
 .page-edition .roman-html .dedication>.p {font-style:italic;}
 .page-edition .roman-html .dedication>.closer>.salute {font-style:italic;}
+.page-edition .roman-html .dedication>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
 		/* titlepage */
 .page-edition .roman-html .docAuthor {text-align:center; text-indent:0; font-size:1.5em;}
 .page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;}
