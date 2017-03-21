@@ -62,6 +62,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .dateline {text-align:right; margin: 2em 0 0 0;}
 .page-edition .roman-html .letter>.opener>.dateline, .page-edition .roman-html .legal>.opener>.dateline, .page-edition .roman-html .narrative>.opener>.dateline, .page-edition .roman-html .opener>.closer>.dateline, .page-edition .roman-html .press>.opener>.dateline {margin: 0.5em 2em 0.5em 0;}
 .page-edition .roman-html .letter>.closer>.dateline, .page-edition .roman-html .legal>.closer>.dateline, .page-edition .roman-html .narrative>.closer>.dateline, .page-edition .roman-html .poem>.closer>.dateline, .page-edition .roman-html .press>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
+.page-edition .roman-html .letter>.dateline {margin: 0.5em 2em 0.5em 0;}
 		/* autres */
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .quote {margin: 1em 0 1em 3em;}
