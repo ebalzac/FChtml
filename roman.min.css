@@ -61,7 +61,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .l.i {font-style:italic;}
 .page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
 .page-edition .roman-html .dateline {text-align:right; margin: 2em 0 0 0;}
-.page-edition .roman-html .letter>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
+.page-edition .roman-html .letter>.closer>.dateline, .page-edition .roman-html .legal>.closer>.dateline, .page-edition .roman-html .narrative>.closer>.dateline, .page-edition .roman-html .poem>.closer>.dateline, .page-edition .roman-html .press>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
 .page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:5em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
