@@ -16,7 +16,7 @@
  /* css partie édition roman-html */
 /* partie CSS non transformée par Maxime */
 section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
-.page-edition .roman-html {text-align: justify; position: relative; padding: 0 1em 0 1em; font-size:17px;} /* padding-left: 5em; padding ou margin : margin: 0 1em 0 1em; */
+.page-edition .roman-html {text-align: justify; position: relative; padding: 0 1em 0 1em; font-size:17px;}
 .page-edition .roman-html a {color: #636b6f}
 .page-edition .roman-html a:hover {color: #636b6f}
 .page-edition .roman-html a.noteref {padding: 0 2px; color: #44ac20}
@@ -42,28 +42,30 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .label {text-align:center; font-size:1.3em; margin: 1em 0 1em 0;}
 .page-edition .roman-html .bookmark {display:none}
 	/* blocs particuliers */
+		/* titlepage */
+.page-edition .roman-html .docAuthor {text-align:center; text-indent:0; font-size:1.5em;}
+.page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;}
+.page-edition .roman-html .titlePart.sub {text-align:center; text-indent:0; font-size:1.5em; font-weight:lighter; margin: 0.5em 0 0.5em 0;}
+		/* epigraph */
+.page-edition .roman-html .epigraph {text-align:right; margin: 1em 0 2em 0;}
+.page-edition .roman-html .epigraph>.bibl {margin-top:0.5em;}
+.page-edition .roman-html .epigraph>.p {font-size:0.8em ; text-align:right; margin: 1em 5em 1em 0;}
 		/* dedication */
 .page-edition .roman-html .dedication {margin: 1em 0 3em 0;}
 .page-edition .roman-html .dedication>.salute, .dedication>.label {text-align:center; font-style:normal; font-size:1.2em; margin: 0 0 1em 0;}
 .page-edition .roman-html .dedication>.p {font-style:italic;}
 .page-edition .roman-html .dedication>.closer>.salute {font-style:italic;}
-.page-edition .roman-html .dedication>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
-		/* titlepage */
-.page-edition .roman-html .docAuthor {text-align:center; text-indent:0; font-size:1.5em;}
-.page-edition .roman-html .titlePart.main {text-align:center; text-indent:0; font-size:2.5em; font-weight:lighter; margin: 1em 0 1em 0;}
-.page-edition .roman-html .titlePart.sub {text-align:center; text-indent:0; font-size:1.5em; font-weight:lighter; margin: 0.5em 0 0.5em 0;}
+.page-edition .roman-html .dedication>.dateline {margin: 0.5em 2em 0.5em 0;}
+		/* dateline */
+.page-edition .roman-html .dateline {text-align:right; margin: 2em 0 0 0;}
+.page-edition .roman-html .letter>.opener>.dateline, .page-edition .roman-html .legal>.opener>.dateline, .page-edition .roman-html .narrative>.opener>.dateline, .page-edition .roman-html .opener>.closer>.dateline, .page-edition .roman-html .press>.opener>.dateline {margin: 0.5em 2em 0.5em 0;}
+.page-edition .roman-html .letter>.closer>.dateline, .page-edition .roman-html .legal>.closer>.dateline, .page-edition .roman-html .narrative>.closer>.dateline, .page-edition .roman-html .poem>.closer>.dateline, .page-edition .roman-html .press>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
 		/* autres */
+.page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .quote {margin: 1em 0 1em 3em;}
-.page-edition .roman-html .epigraph {text-align:right; margin: 1em 0 2em 0;}
-.page-edition .roman-html .epigraph>.bibl {margin-top:0.5em;}
-.page-edition .roman-html .epigraph>.p {font-size:0.8em ; text-align:right; margin: 1em 5em 1em 0;}
 .page-edition .roman-html .ab {text-align:center; letter-spacing:-3px; margin:1em 0 2em 0;}
 .page-edition .roman-html .lg {margin:0 0 1em 0;}
 .page-edition .roman-html .l.i {font-style:italic;}
 .page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
-.page-edition .roman-html .dateline {text-align:right; margin: 2em 0 0 0;}
-.page-edition .roman-html .letter>.opener>.dateline, .page-edition .roman-html .legal>.opener>.dateline, .page-edition .roman-html .narrative>.opener>.dateline, .page-edition .roman-html .opener>.closer>.dateline, .page-edition .roman-html .press>.opener>.dateline {margin: 0.5em 2em 0.5em 0;}
-.page-edition .roman-html .letter>.closer>.dateline, .page-edition .roman-html .legal>.closer>.dateline, .page-edition .roman-html .narrative>.closer>.dateline, .page-edition .roman-html .poem>.closer>.dateline, .page-edition .roman-html .press>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
-.page-edition .roman-html .letter, .page-edition .roman-html .narrative, .page-edition .roman-html .poem, .page-edition .roman-html .legal, .page-edition .roman-html .press {margin: 1em 0 1em 0;}
 .page-edition .roman-html .closer>.salute {text-indent:5em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
