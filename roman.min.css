@@ -14,8 +14,8 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html figure img {max-width: 100%; height: auto}
 	/* tags principaux */
 .page-edition .roman-html p {text-indent:1em; margin:0;} 
-.page-edition .roman-html .i, .p.i, p.i, .p.i {font-style:italic;} /* celui-là ne fonctionne pas */
-.page-edition .roman-html .i.i {font-style:normal;}
+.page-edition .roman-html .i {font-style:italic;}
+.page-edition .roman-html .i {font-style:normal;}
 .page-edition .roman-html .sc {font-style:normal; font-variant:small-caps;}
 .page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage ; il faudrait reporter sur les pages statiques */
 .page-edition .roman-html .num {font-variant:small-caps;}
@@ -25,7 +25,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .center {text-align:center; text-indent:0;}
 .page-edition .roman-html .quote.center {text-align:center; text-indent:0;}
 .page-edition .roman-html .noindent {text-indent:0;}
-.page-edition .roman-html .noindent.i {font-style:italic;}
+.page-edition .roman-html .noindent.i, .p.i.i {font-style:italic;}
 .page-edition .roman-html .label {text-align:center; font-size:1.3em; margin: 1em 0 1em 0;}
 .page-edition .roman-html .bookmark {display:none}
 	/* blocs particuliers */
