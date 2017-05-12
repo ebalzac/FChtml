@@ -57,3 +57,4 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .signed {text-align:right; margin: 0 2em 0 0;}
 .page-edition .roman-html .closer>.salute {text-indent:5em; margin: 0;}
 .page-edition .roman-html .opener>.salute {text-indent:2em; margin:0;}
+.page-edition .roman-html hr {margin-top:1.5em; margin-bottom:1.5em}
