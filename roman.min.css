@@ -19,7 +19,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;} /* exposants sans modification de l'interlignage ; il faudrait reporter sur les pages statiques */
 .page-edition .roman-html .num {font-variant:small-caps;}
 .page-edition .roman-html .n {font-style:normal;}
-.page-edition .roman-html h2.head, .page-edition .roman-html h3.head {text-align:center; margin:1em 0 1em 0; line-height:1.2em;}
+.page-edition .roman-html h2.head, .page-edition .roman-html h3.head, .page-edition .roman-html h4.head, .page-edition .roman-html h5.head {font-size: 120%; text-align:center; margin:1.5em 0 1.5em 0; line-height:1.2em;}
 	/* classes usuelles */
 .page-edition .roman-html .center {text-align:center; text-indent:0;}
 .page-edition .roman-html .quote.center {text-align:center; text-indent:0;}
