@@ -45,11 +45,11 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .dedication .dateline {margin: 0.5em 2em 0.5em 0;}
 .page-edition .roman-html .dedication .opener .salute {font-style: italic;}
 		/* dateline */
-.page-edition .roman-html .dateline {text-align:right;}
+.page-edition .roman-html .dateline {text-align:right}
 .page-edition .roman-html .legal>.opener>.dateline, .page-edition .roman-html .letter>.opener>.dateline, .page-edition .roman-html .narrative>.opener>.dateline, .page-edition .roman-html .poem>.opener>.dateline, .page-edition .roman-html .press>.opener>.dateline, .page-edition .roman-html .treatise>.opener>.dateline {margin: 0.5em 2em 0.5em 0;}
 .page-edition .roman-html .letter>.closer>.dateline, .page-edition .roman-html .legal>.closer>.dateline, .page-edition .roman-html .narrative>.closer>.dateline, .page-edition .roman-html .poem>.closer>.dateline, .page-edition .roman-html .press>.closer>.dateline, .page-edition .roman-html .treatise>.closer>.dateline {margin: 0.5em 2em 0.5em 0;}
 .page-edition .roman-html .letter>.dateline {margin: 0.5em 2em 0.5em 0;}
-.page-edition .roman-html .dateline.end {margin-top: 2em;}
+.page-edition .roman-html .dateline.end {margin-top: 2em; margin-bottom: 5em;}
 .page-edition .roman-html .dateline.epistolary {margin: 0.5em 2em 0.5em 0;}
 		/* autres */
 .page-edition .roman-html .narrative, .page-edition .roman-html .drama {margin: 2em 0 2em;}
