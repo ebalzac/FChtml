@@ -36,7 +36,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 		/* epigraph */
 .page-edition .roman-html .epigraph {text-align:right; margin: 1em 0 2em 0;}
 .page-edition .roman-html .epigraph>.bibl {font-size:0.8em; margin:0.5em 2em 0 0;}
-.page-edition .roman-html .epigraph>.p {font-size:0.8em ; text-align:justify; margin: 1em 2em 1em 5em;}
+.page-edition .roman-html .epigraph>.p {font-size:0.8em ; text-align:justify; margin: 1em 2em 1em 50%;}
 		/* dedication */
 .page-edition .roman-html .dedication {margin: 1em 0 3em 0;}
 .page-edition .roman-html .dedication>.salute, .page-edition .roman-html .dedication>.label {text-align:center; font-style:normal; font-size:1.2em; margin: 0 0 1em 0;}
