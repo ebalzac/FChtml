@@ -67,8 +67,3 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html hr {margin-top:1.5em; margin-bottom:1.5em}
 .page-edition .roman-html .drama p.speaker {text-align: center; font-variant:small-caps; margin: 1.5em 0 0.5em 0;}
 .page-edition .roman-html .stage {font-style: italic; font-variant:normal;}
-
-
-    /* général sur le site */
-.page-genetique signed {margin-left: 60%}
-sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;}
