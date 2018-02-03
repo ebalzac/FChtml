@@ -12,6 +12,13 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 	/* images */
 .page-edition .roman-html figure {text-align: center}
 .page-edition .roman-html figure img {max-width: 100%; height: auto}
+.page-edition .roman-html .figure.center>img {max-height: 300px; width: auto;}
+.page-edition .roman-html .figure.colophon>img {max-height: 150px; width: auto; margin-bottom: 5em;}
+.page-edition .roman-html .figure.float-left>img {float: left; width: 40%; margin-left:-2.5em; margin-right: 1em}
+.page-edition .roman-html .figure.float-right>img {float: right; width: 40%; margin-right:-2.5em; margin-left: 1em;}
+.page-edition .roman-html .figure.lettrine>img {width: 35%; float:left; margin-left:-2.5em; margin-right: 0.5em;}
+
+
 	/* tags principaux */
 .page-edition .roman-html p {text-indent:1em; margin:0;} 
 .page-edition .roman-html .b {font-weight: bold;}
