@@ -33,7 +33,7 @@ section.footnotes {padding: 20px 0; font-size: .8em; color: #AAA}
 .page-edition .roman-html .quote.center {text-align:center; text-indent:0;}
 .page-edition .roman-html .noindent {text-indent:0;}
 .page-edition .roman-html .noindent.i, .p.i.i {font-style:italic;}
-.page-edition .roman-html .label {text-align:center; font-size:1.1em; margin: 1em 0 1em 0;}
+.page-edition .roman-html .label {text-align:center; font-size:110%; margin: 1em 0 1em 0;}
 .page-edition .roman-html .bookmark {display:none}
 	/* blocs particuliers */
 		/* titlepage */
